@@ -1,6 +1,6 @@
 /*=============== MAIN DIV LOADER ===============*/
-// window.addEventListener("load", () => {
-$(document).ready(function () {
+window.addEventListener("load", () => {
+// $(document).ready(function () {
 	let bodyy = document.querySelector("body"); // First hide main scroll to avoid conflicts in preloader & begining video
 	bodyy.classList.add("hide-scroll");
 
